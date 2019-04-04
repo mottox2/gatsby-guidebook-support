@@ -1,0 +1,6 @@
+[submodule "react-portfolio"]
+	path = react-portfolio
+	url = https://github.com/mottox2/react-portfolio.git
+[submodule "gatsby-contentful-blog"]
+	path = gatsby-contentful-blog
+	url = https://github.com/mottox2/gatsby-contentful-blog.git
