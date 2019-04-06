@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "はじめてのGraphQL",
+    title: "My Portfolio",
     description: "はじめてのGraphQLを書いてみましょう",
     author: "@mottox2",
   },

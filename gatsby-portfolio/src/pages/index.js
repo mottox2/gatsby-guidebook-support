@@ -12,7 +12,9 @@ const IndexPage = ({ data }) => (
       const work = edge.node
       return (
         <div>
-          {work.title} - {work.category} - {work.year}
+          <Link to={`/works/${work.slug}`}>
+            {work.title} - {work.category} - {work.year}
+          </Link>
         </div>
       )
     })}
@@ -28,6 +30,7 @@ export const query = graphql`
           title
           category
           year
+          slug
         }
       }
     }
